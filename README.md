@@ -1,13 +1,13 @@
-# Pattern — Design Patterns Demo
+# Pattern - Design Patterns Demo
 
 Учебный проект: реализация паттернов Facade, Observer и Strategy на C# (.NET 8).
 
 ## Структура решения
 
 Pattern.sln
-├── Pattern.Core/        — библиотека с классами паттернов
-├── Pattern/             — консольное приложение (демонстрация)
-└── Pattern.WinForms/    — Windows Forms приложение (интерактивный UI)
+├── Pattern.Core/        - библиотека с классами паттернов
+├── Pattern/             - консольное приложение (демонстрация)
+└── Pattern.WinForms/    - Windows Forms приложение (интерактивный UI)
 
 ## Паттерны
 
@@ -49,9 +49,9 @@ dotnet run --project Pattern.WinForms/Pattern.WinForms.csproj
 
 Откроется окно с тремя вкладками:
 
-- Facade — Home Theater — введи название фильма, нажми Start Movie / Stop Movie
-- Observer — Delivery — добавляй покупателей, меняй статус заказа, наблюдай уведомления
-- Strategy — Text Formatter — введи текст, выбери стратегию форматирования, нажми Format
+- Facade - Home Theater - введи название фильма, нажми Start Movie / Stop Movie
+- Observer - Delivery - добавляй покупателей, меняй статус заказа, наблюдай уведомления
+- Strategy - Text Formatter - введи текст, выбери стратегию форматирования, нажми Format
 
 Сборка всего решения
 
